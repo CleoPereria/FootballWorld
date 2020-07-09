@@ -1,0 +1,518 @@
+$font:'Poppins', sans-serif;
+$primary-color:  #174793;
+$secondary-color:#f1a300;
+$third-color: #fcc100;
+   
+html {
+    scroll-behavior: smooth;
+  }
+
+.carousel-item img {
+    width: 100%;
+}
+body{
+    font-family: $font;
+}
+
+
+hr{
+    height: 1px;
+}
+
+
+.modal-content{
+   color:$primary-color;
+
+   .modal-body img{
+        width: 100%;
+   }
+
+
+   .modal-header {
+       text-align: center;
+  
+       .close{
+          display: none;
+       }
+
+    }
+   
+}
+
+// @media (min-width:1025px){
+
+// #programs-offered{
+//     .card-deck{
+//         padding: 20px;
+//     }
+
+//     h1{
+//         padding-top: 5%;
+//         font-size :2 em;
+
+//     }
+
+//     .lead{
+//         font-size: 3em;
+//     }
+// }
+
+// }
+
+// WhatApp Float
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #04a53f;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+  //  box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    transition: all 0.2s ease-in;
+
+
+    &:hover{
+        color: $secondary-color;
+    }
+  }
+  
+  .my-float {
+    margin-top: 16px;
+  }
+  
+/////////
+
+
+.bg-light{
+    background: #fff !important;
+}
+.navbar-brand{
+ color:#0f2f62;
+ font-weight: 700;
+}
+
+
+.logo-overlay {
+    
+    h1{
+        text-shadow: 2px 2px 3px rgba(74, 117, 150, 0.86);
+    }
+    color: white;
+  @media (max-width:991px){
+    img{ 
+        width:25% ;          }
+    h1{
+        font-size: 1.2em;
+        text-shadow: 2px 2px 3px rgba(74, 117, 150, 0.86);
+        padding:0px 20px;
+        margin-top: -8%;
+    }
+  } 
+   
+
+
+
+     }
+
+
+
+
+#about-us{
+ .container{
+    padding: 40px 0px 40px 0px ;
+ }
+
+background-image: url(../img/aboutbackmini.png);
+background-size: cover;
+background-attachment: fixed;
+// opacity: 0.6;
+}
+@media (max-width:991px){
+    .display-4{
+        font-size: 2.5em ;
+        }
+        
+        .lead{
+            font-size: 0.8em ;
+        }
+
+        p{
+            font-size: 0.8em;
+        }
+}
+
+
+
+
+#programs-offered{
+background-image: url(../img/service.png);
+background-size: cover;
+
+.container{
+  
+    padding: 40px 0px 40px 0px ;
+    color:white;
+
+}
+hr{
+    background-color: $secondary-color;
+    margin: 10px 20px;
+}
+
+h1{
+    padding-top: 2%;
+}
+
+.card-deck{
+    padding: 50px 5px;
+}
+
+
+@media (max-width:991px){
+    h1{
+        font-size:2.5em ;
+    }
+    
+    .lead {
+        font-size: 0.8em ;
+    }
+}
+
+
+
+
+}
+.card-deck .card{
+
+background: transparent;
+border: none;
+
+}
+
+.card-body{
+img{
+    
+    padding-bottom: 2px;
+}
+
+
+.card-title{
+    padding-top: 2px;
+    color: $third-color;
+}
+}
+
+
+#team{
+
+background-image: url(../img/aboutbackmini.png);
+background-size: cover;
+background-attachment: fixed;
+
+h1 {
+    padding-top: 3%;
+}
+
+.container{
+   padding: 40px 0px 40px 0px;
+}
+
+
+hr{
+    background-color:$secondary-color;
+    margin: 10px 20px;
+}
+
+.card {
+     border:0px ;
+     background: transparent;
+
+     .card-body{
+        img{
+            width: 100% ;
+        }
+    }
+ 
+}
+
+
+@media (max-width:991px){
+    .card-body{
+        img{
+            width: 70% !important;
+        }
+    }
+    .lead{
+
+        font-size: 0.8em ;
+    }
+
+
+}
+
+}
+
+
+#centers{
+background:$primary-color;
+
+
+.main-nav-tabs{
+    padding: 40px 0px;
+}
+
+.nav-item{
+
+    
+    a{
+        color:white;
+   
+     &:active{
+         color:$primary-color;
+     }   
+        
+    }
+
+}
+.tab-pane{
+    background-color: white;
+    padding-bottom: 10px;
+   //margin: 0 auto;
+
+    h3{
+       padding-top: 15px;
+        
+    }
+}
+.active{
+
+    color:$primary-color !important;
+}
+    
+
+.nav-link{
+    //color:white;
+
+
+    &:active{
+        color:$primary-color;
+    }
+
+}
+
+
+
+.display-4{
+    padding-top: 2%;
+    color:white;
+    margin-bottom:0px;
+}
+
+hr{
+    background-color:$secondary-color;
+    margin: 0px 20px;
+}
+
+#accord{
+    display: none;
+}
+
+@media (max-width:991px){
+    #myTab ,.tab-content{
+        display: none;
+    }
+
+#accord{
+    display:block;
+}
+
+
+    .panel-body p{
+        font-size: 1.1em;
+    }
+
+   .container{
+       padding:0px;
+   } 
+
+}
+
+
+
+.panel-heading {
+    color:white;
+    border: 1px solid #fff;
+    margin:10px;
+    border-radius: 5px;
+    background:#386cb9;
+
+    a{
+        text-decoration: none;
+    }
+    .panel-title a{
+        padding: 2px;
+        color: #ffdf01;
+    }
+
+   
+}
+
+
+.panel-heading{
+    color:white;
+    border: 1px solid #fff;
+    margin:10px;
+    border-radius: 5px;
+}
+
+.panel-collapse{
+    background: #fff;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-bottom: 5px;
+    border-radius: 2px;
+}
+
+
+h5{
+    color:white;
+    padding: 0px 25px;
+    margin-bottom: 0px;
+}
+}
+#Contact-form{
+
+background-image: url(../img/contactus.png);
+background-size: cover;
+color:white;
+
+hr{
+    background-color:$secondary-color;
+    margin: 0px 20px;
+}
+
+.contact_form {
+    background:$primary-color;
+    border-radius: 5px;
+    color:$third-color;
+
+    @media(max-width:991px){
+        background: #000000ad;
+    }
+
+
+    .form-control:focus{
+     border-color:5px solid $third-color;
+     outline: 0;
+    //box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25)
+    } 
+}
+
+
+
+}
+
+.footer{
+    background-color: $primary-color;
+    color : $third-color;
+    padding: 10px;
+
+    a{
+        color:$third-color;
+    }
+}
+
+
+.footer-end{
+background: #0f2f62;
+color:white;
+padding: 10px;
+}
+
+
+#gallery {
+
+img{
+    width:100%;
+    transition: all 0.3s;
+    overflow: hidden;
+
+    &:hover{
+        transform:scale(1.1);
+        overflow: hidden;
+    }
+}
+
+
+.col-md-12{
+    margin: 0px 0px;
+    padding: 0px;
+}
+.col-md-3{
+    margin: 0px 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+.container-fluid{
+    padding: 0px;
+}
+}
+
+
+#testimonial{
+background: $primary-color;
+color:$third-color;
+height: 75vh;
+
+
+h1{
+    padding-top: 3%;
+}
+
+hr{
+    background-color:$secondary-color;
+    margin: 0px 20px;
+}
+}
+
+.container{
+    padding: 40px 0px 40px 0px;
+}
+
+
+#testimonialCarousel{
+
+    .carousel-item.active,
+    .carousel-item-next,
+    .carousel-item-prev{
+        display:block;
+
+    }
+
+.main-lead{
+
+    font-size: 1.1em;
+    color: white;
+    padding: 0px 80px;
+
+    @media (max-width:991px){
+        padding:10px;
+        font-size: 0.8em;
+    }
+
+}
+  
+}
+
+
+
+
+
+
+

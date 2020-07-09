@@ -1,0 +1,3 @@
+User-agent: *
+disallow: /plugins/
+Sitemap: http://footballworldinda.com/sitemap.xml
